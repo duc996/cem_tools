@@ -9,11 +9,17 @@ This command line tool connects to the CEM bluetooth module (if I remeber correc
 
 ### First time
 I recommand using venv. The first time using it you have to create it:
+```
 python3 -m venv .venv
+```
 
-### Load the virtual environement
+### Load the virtual environement and install needed modules
+```
 source .venv/bin/activate
+pip install -r requirements.txt
+```
 
 ### Start the script
-cem_logger.py -b "bluetooth device address" -o output_file.csv
-
+```
+cem_logger.py -b [your_bluetooth_device_address] -o output_file.csv
+```
