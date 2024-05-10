@@ -4,7 +4,7 @@ I got my hand on a CEM multimeter, a 9519BT. This respository is a collection of
 
 # cem_logger
 BLE data logger
-This command line tool connects to the CEM bluetooth module (if I remeber correctly it's some TI CC25xx module) and can log received data to a file.
+This command line tool connects to the CEM bluetooth module (if I remeber correctly it's some TI CC25xx module), parses it and can log received data to a file.
 
 ## usage
 
