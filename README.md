@@ -1,2 +1,19 @@
 # cem_tools
 Some tools for CEM Instruments devices
+I got got my hand on a CEM multimeter, a 9519BT. This is a collection of tools releated to it.
+
+# cem_logger
+BLE data logger
+This command line tool connects to the CEM bluetooth module (if I remeber correctly it's some TI CC25xx module) and can log received data to a file.
+## usage
+
+### First time
+I recommand using venv. The first time using it you have to create it:
+python3 -m venv .venv
+
+### Load the virtual environement
+source .venv/bin/activate
+
+### Start the script
+cem_logger.py -b "bluetooth device address" -o output_file.csv
+
