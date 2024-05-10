@@ -1,4 +1,4 @@
-# cem_tools
+# CEM Tools
 Some tools for CEM Instruments devices.\
 I got got my hand on a CEM multimeter, a 9519BT. This respository is a collection of tools releated to it.
 
